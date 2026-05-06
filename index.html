@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Shop | Electronics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-[#131921] text-white p-3 flex items-center justify-between sticky top-0 z-50">
+        <div class="text-2xl font-bold text-orange-500">G-Shop</div>
+        <div class="flex-1 mx-4 max-w-xl hidden md:block">
+            <div class="flex">
+                <input type="text" class="w-full p-2 rounded-l text-black outline-none" placeholder="Search products...">
+                <button class="bg-orange-400 p-2 rounded-r px-4 text-black"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <div class="flex gap-4 text-sm font-bold items-center">
+            <div class="cursor-pointer">Account</div>
+            <div class="cursor-pointer">Orders</div>
+            <a href="admin.html" class="bg-orange-500 text-black px-2 py-1 rounded text-xs">Admin Panel</a>
+            <div class="relative cursor-pointer"><i class="fa fa-shopping-cart text-xl"></i></div>
+        </div>
+    </nav>
+
+    <div class="bg-gray-800 h-48 flex items-center justify-center text-white px-4">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-orange-400">Premium Electronics. Unbeatable Prices.</h1>
+            <p class="mt-2">Top-rated gear, delivered fast to USA & Canada.</p>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-4 rounded shadow border-t-4 border-orange-500">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300" class="w-full h-40 object-cover rounded">
+            <h3 class="font-bold mt-2">Elite Wireless Pods Pro</h3>
+            <div class="text-yellow-500 text-xs">★★★★★ (1,284)</div>
+            <div class="text-2xl font-bold mt-1 text-gray-800">$89.99</div>
+            <button class="w-full bg-orange-400 mt-3 py-2 rounded font-bold">Add to Cart</button>
+            <button class="w-full bg-yellow-400 mt-1 py-2 rounded font-bold text-sm">Buy Now</button>
+        </div>
+        <div class="bg-white p-4 rounded shadow border-t-4 border-orange-500">
+            <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=300" class="w-full h-40 object-cover rounded">
+            <h3 class="font-bold mt-2">UltraSlim 4K Dash Cam</h3>
+            <div class="text-yellow-500 text-xs">★★★★★ (956)</div>
+            <div class="text-2xl font-bold mt-1 text-gray-800">$119.99</div>
+            <button class="w-full bg-orange-400 mt-3 py-2 rounded font-bold">Add to Cart</button>
+            <button class="w-full bg-yellow-400 mt-1 py-2 rounded font-bold text-sm">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
